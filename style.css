@@ -45,8 +45,8 @@ p {
 
 /* text logo */
 .pyladies-logo {
-	height: 63px;
-	width: 133px;
+	height: 500px;
+	width: 500px;
 }
 
 @media (max-width: 400px) {
@@ -79,7 +79,7 @@ p {
 @media (min-width: 750px) {
 	#floating-logo  {
 		width: 500px;
-		height: 250px;
+		height: 500px;
 		top: 30%;
 		left: 50%;
 		margin-left: -250px;
@@ -204,8 +204,8 @@ h1,h2,h3,h4 {
 	margin-left: auto;
 }
 
-.pink {
-	background-color: pink;
+.light-blue {
+	background-color: #add8e6
 	border-top: 5px solid #ffdeb4;
 	border-bottom: 5px solid #ffdeb4;
 }
@@ -244,7 +244,7 @@ h1,h2,h3,h4 {
 	overflow: hidden;
 }
 
-.organizer-container {
+.moderator-container {
 	margin-bottom: 25px;
 	max-width: 100%;
 	height: auto;
@@ -254,12 +254,12 @@ h1,h2,h3,h4 {
 }
 
 @media (min-width: 1250px) {
-	.organizer-container {
+	.moderator-container {
 		width: 40%;
 	}
 }
 
-.organizer {
+.moderator {
 	height: auto;
 	flex-grow:0;
 	flex-shrink:0;
@@ -269,7 +269,7 @@ h1,h2,h3,h4 {
 	max-width: 300px;
 }
 
-.organizer.landscape {
+.moderator.landscape {
 	max-width: 325px;
 	padding-top: 10px;
 }
@@ -279,7 +279,7 @@ h1,h2,h3,h4 {
 		flex-direction: row;
 	}
 
-	.organizer.landscape {
+	.moderator.landscape {
 		max-width: 425px;
 	}
 }
@@ -358,7 +358,7 @@ span.fa {
 	text-align: center;
 	font-size: 14px;
 	padding-top: 15px;
-	background-color: #0e0c4f;
+	background-color: #ff4040;
 	padding-right: 16px;
 }
 
@@ -376,7 +376,7 @@ span.fa {
 }
 
 .small-geek {
-	background-image: url('./images/pylady_geek.png');
+	background-image: url('./images/cool-cry.png');
 	background-size: contain;
 	width: 40px;
 	height: 40px;
@@ -386,7 +386,7 @@ span.fa {
 }
 
 .med-geek {
-	background-image: url('./images/pylady_geek.png');
+	background-image: url('./images/cool-cry.png');
 	background-size: contain;
 	display: block;
 	margin-left: 10px;
